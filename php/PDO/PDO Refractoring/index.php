@@ -8,7 +8,7 @@
     
     $tasks = $query->selectAll('todos','Task');
 
-    dd($tasks);
+    // dd($tasks);  
 
     require 'index.view.php';
 
